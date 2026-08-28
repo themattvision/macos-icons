@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Xcode user state and generated build output
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.build/
+
+# Compiler and coverage artifacts
+*.profraw
+*.profdata
+
+# Python helper artifacts
+__pycache__/
+*.py[cod]
+
+# Local credentials and per-machine Cloudflare configuration
+.env
+.env.*
+!.env.example
+.dev.vars
+.cf-account
+Secrets.xcconfig
+Config/Secrets.xcconfig

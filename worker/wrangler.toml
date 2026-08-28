@@ -1,0 +1,7 @@
+name = "macos-icons-proxy"
+main = "src/index.js"
+compatibility_date = "2026-08-28"
+workers_dev = true
+
+# SEARCH_CACHE is optional by design. A fresh deploy works without any KV
+# namespace; add a binding with this name only when server-side caching is useful.

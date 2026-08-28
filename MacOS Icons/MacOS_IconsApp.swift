@@ -6,27 +6,25 @@
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct MacOS_IconsApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+    // Un'unica istanza mantiene allineate finestra principale e Impostazioni. La chiave
+    // personale resta nel Portachiavi e non viene duplicata in UserDefaults.
+    @StateObject private var searchService = IconSearchService()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(searchService)
         }
-        .modelContainer(sharedModelContainer)
+        .defaultSize(width: 1000, height: 680)
+        .windowToolbarStyle(.unified)
+
+        // Pannello Impostazioni di sistema, raggiungibile con Cmd+, dal menu applicazione.
+        Settings {
+            SettingsView()
+                .environmentObject(searchService)
+        }
     }
 }

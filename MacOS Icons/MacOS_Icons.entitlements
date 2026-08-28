@@ -2,9 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>com.apple.security.app-sandbox</key>
-	<true/>
-	<key>com.apple.security.files.user-selected.read-only</key>
+	<!--
+	  App Sandbox DISATTIVATA di proposito.
+	  Verificato empiricamente il 24/08/2026 con un bundle di prova firmato con gli
+	  stessi entitlement: dentro la sandbox NSWorkspace.setIcon restituisce false su
+	  qualunque app che non sia passata dal pannello di sistema o da un trascinamento
+	  (l'accesso "user-selected" copre solo quelle), quindi il selettore che mostra
+	  l'elenco delle app installate non potrebbe applicare nulla. Elencare le app
+	  invece funzionava: e' proprio la scrittura a essere negata.
+	  L'app non va sull'App Store (distribuzione diretta), quindi la sandbox qui
+	  toglieva la funzione principale senza dare nulla in cambio.
+	-->
+	<key>com.apple.security.network.client</key>
 	<true/>
 </dict>
 </plist>
