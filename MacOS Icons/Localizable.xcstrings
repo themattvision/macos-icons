@@ -1,5 +1,5 @@
 {
-  "sourceLanguage": "it",
+  "sourceLanguage": "en",
   "strings": {
     "%@, non modificabile": {
       "localizations": {
@@ -9,22 +9,10 @@
             "value": "%@, not customizable"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@, no modificable"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@, tidak dapat diubah"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@、変更不可"
+            "value": "%@, non modificabile"
           }
         }
       }
@@ -50,46 +38,38 @@
             }
           }
         },
-        "es": {
+        "it": {
           "variations": {
             "plural": {
               "one": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld descarga"
+                  "value": "%lld download"
                 }
               },
               "other": {
                 "stringUnit": {
                   "state": "translated",
-                  "value": "%lld descargas"
+                  "value": "%lld download"
                 }
               }
             }
           }
-        },
-        "id": {
-          "variations": {
-            "plural": {
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld unduhan"
-                }
-              }
-            }
+        }
+      }
+    },
+    "%lld giorni fa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld days ago"
           }
         },
-        "ja": {
-          "variations": {
-            "plural": {
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld件のダウンロード"
-                }
-              }
-            }
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld giorni fa"
           }
         }
       }
@@ -115,36 +95,6 @@
             }
           }
         },
-        "es": {
-          "variations": {
-            "plural": {
-              "one": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld icono"
-                }
-              },
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld iconos"
-                }
-              }
-            }
-          }
-        },
-        "id": {
-          "variations": {
-            "plural": {
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld ikon"
-                }
-              }
-            }
-          }
-        },
         "it": {
           "variations": {
             "plural": {
@@ -162,17 +112,37 @@
               }
             }
           }
+        }
+      }
+    },
+    "%lld ore fa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld hours ago"
+          }
         },
-        "ja": {
-          "variations": {
-            "plural": {
-              "other": {
-                "stringUnit": {
-                  "state": "translated",
-                  "value": "%lld個のアイコン"
-                }
-              }
-            }
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ore fa"
+          }
+        }
+      }
+    },
+    "%lld su %lld questo mese": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld of %2$lld this month"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "new",
+            "value": "%1$lld su %2$lld questo mese"
           }
         }
       }
@@ -186,22 +156,26 @@
             "value": "Target app: %@"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "App seleccionada: %@"
+            "value": "App agganciata: %@"
+          }
+        }
+      }
+    },
+    "Applica %@ a %@": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Applica %1$@ a %2$@"
           }
         },
-        "id": {
+        "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Aplikasi tersemat: %@"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "選択したアプリケーション：%@"
+            "value": "Apply %@ to %@"
           }
         }
       }
@@ -215,22 +189,10 @@
             "value": "Apply to %@"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Aplicar a %@"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terapkan ke %@"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@に適用"
+            "value": "Applica a %@"
           }
         }
       }
@@ -243,22 +205,10 @@
             "value": "Applied"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Aplicado"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Diterapkan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "適用済み"
+            "value": "Applicata"
           }
         }
       }
@@ -271,22 +221,10 @@
             "value": "Applying icon…"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Aplicando el icono…"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Menerapkan ikon…"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アイコンを適用中…"
+            "value": "Applico l'icona…"
           }
         }
       }
@@ -299,22 +237,10 @@
             "value": "Open the panel to choose an app from /Applications"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Abre el panel para elegir una app desde /Applications"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Buka panel untuk memilih aplikasi dari /Applications"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "/Applications からアプリを選択するパネルを開きます。"
+            "value": "Apri il pannello per scegliere un'app da /Applications"
           }
         }
       }
@@ -328,22 +254,26 @@
             "value": "Open the macOSicons developer dashboard and sign in"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Abre el panel de desarrolladores de macOSicons e inicia sesión"
+            "value": "Apri la dashboard sviluppatori di macOSicons e accedi"
+          }
+        }
+      }
+    },
+    "Apri le Impostazioni": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
           }
         },
-        "id": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Buka dashboard developer macOSicons dan masuk"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOSiconsの開発者ダッシュボードを開いてログイン"
+            "value": "Apri le Impostazioni"
           }
         }
       }
@@ -357,22 +287,10 @@
             "value": "Open on macOSicons"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Abrir en macOSicons"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Buka di macOSicons"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOSiconsで開く"
+            "value": "Apri su macOSicons"
           }
         }
       }
@@ -386,22 +304,10 @@
             "value": "Uploaded By"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Subido por"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Diunggah oleh"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "投稿者"
+            "value": "Caricato da"
           }
         }
       }
@@ -415,22 +321,10 @@
             "value": "Icon Catalog"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Catálogo de iconos"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Katalog Ikon"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アイコンカタログ"
+            "value": "Catalogo icone"
           }
         }
       }
@@ -444,22 +338,10 @@
             "value": "Category"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Categoría"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kategori"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "カテゴリ"
+            "value": "Categoria"
           }
         }
       }
@@ -472,22 +354,10 @@
             "value": "Search your apps"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Buscar en tus apps"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cari aplikasi"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アプリケーションを検索"
+            "value": "Cerca fra le tue app"
           }
         }
       }
@@ -501,22 +371,10 @@
             "value": "Search Icons"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Buscar iconos"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cari Ikon"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アイコンを検索"
+            "value": "Cerca icone"
           }
         }
       }
@@ -529,22 +387,10 @@
             "value": "Searching installed apps…"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Buscando las apps instaladas…"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mencari aplikasi yang terinstal…"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "インストール済みのアプリケーションを検索しています…"
+            "value": "Cerco le app installate…"
           }
         }
       }
@@ -558,22 +404,10 @@
             "value": "API Key"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Clave de API"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunci API"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "APIキー"
+            "value": "Chiave API"
           }
         }
       }
@@ -587,22 +421,10 @@
             "value": "API key required.\n\nOpen the app's Settings (Cmd+,), generate a free API key at macosicons.com, and paste it there to start searching."
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Se requiere una clave de API.\n\nAbre los Ajustes de la app (Cmd+,), genera una clave de API gratuita en macosicons.com y pégala allí para empezar a buscar."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunci API diperlukan.\n\nBuka Pengaturan aplikasi (Cmd+,), buat kunci API gratis di macosicons.com, lalu tempel di sana untuk mulai mencari."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "APIキーが必要です。\n\nアプリの設定（⌘,）を開き、macosicons.comで無料のAPIキーを発行し、そこに貼り付けて検索を始めてください。"
+            "value": "Chiave API richiesta.\n\nApri le Impostazioni dell'app (Cmd+,), genera una API key gratuita su macosicons.com e incollala lì per iniziare a cercare."
           }
         }
       }
@@ -616,22 +438,42 @@
             "value": "Key set (••••%@)"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Clave configurada (••••%@)"
+            "value": "Chiave impostata (••••%@)"
+          }
+        }
+      }
+    },
+    "CLIENT_AUTH_TOKEN": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CLIENT_AUTH_TOKEN"
           }
         },
-        "id": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kunci telah diatur (••••%@)"
+            "value": "CLIENT_AUTH_TOKEN"
+          }
+        }
+      }
+    },
+    "Collega il tuo Worker": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connect your Worker"
           }
         },
-        "ja": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "キー設定済み（••••%@）"
+            "value": "Collega il tuo Worker"
           }
         }
       }
@@ -645,22 +487,107 @@
             "value": "Share"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Compartir"
+            "value": "Condividi"
+          }
+        }
+      }
+    },
+    "Configura il tuo Worker": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set up your Worker"
           }
         },
-        "id": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bagikan"
+            "value": "Configura il tuo Worker"
+          }
+        }
+      }
+    },
+    "Configurazione non riuscita. Controlla i dati e riprova.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configuration failed. Check the details and try again."
           }
         },
-        "ja": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "共有"
+            "value": "Configurazione non riuscita. Controlla i dati e riprova."
+          }
+        }
+      }
+    },
+    "Copia il messaggio per il tuo agente": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia il messaggio per il tuo agente"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy the message for your agent"
+          }
+        }
+      }
+    },
+    "Copia il messaggio, invialo al tuo agente e poi torna qui con l’URL del Worker e il token che ti restituisce.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia il messaggio, invialo al tuo agente e poi torna qui con l’URL del Worker e il token che ti restituisce."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy the message, send it to your agent, then return here with the Worker URL and token it gives you."
+          }
+        }
+      }
+    },
+    "Copia il suo URL HTTPS": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy its HTTPS URL"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia il suo URL HTTPS"
+          }
+        }
+      }
+    },
+    "Copia negli appunti le istruzioni per pubblicare e configurare il Worker.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia negli appunti le istruzioni per pubblicare e configurare il Worker."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copies instructions for deploying and configuring the Worker to the clipboard."
           }
         }
       }
@@ -674,22 +601,10 @@
             "value": "Copy Name"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Copiar nombre"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Salin Nama"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "名前をコピー"
+            "value": "Copia nome"
           }
         }
       }
@@ -703,22 +618,10 @@
             "value": "Credits"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Créditos"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kredit"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "クレジット"
+            "value": "Crediti"
           }
         }
       }
@@ -732,2037 +635,10 @@
             "value": "Date"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fecha"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tanggal"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "日付"
-          }
-        }
-      }
-    },
-    "Download": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Downloads"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descargas"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unduhan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ダウンロード数"
-          }
-        }
-      }
-    },
-    "Download totali": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total Downloads"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descargas totales"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Total Unduhan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "合計ダウンロード数"
-          }
-        }
-      }
-    },
-    "Errore": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kesalahan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "エラー"
-          }
-        }
-      }
-    },
-    "Errore HTTP: %lld": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "HTTP error: %lld"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error HTTP: %lld"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kesalahan HTTP: %lld"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "HTTPエラー：%lld"
-          }
-        }
-      }
-    },
-    "Errore durante il caricamento delle ultime icone: %@": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error loading recent icons: %@"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error al cargar los últimos iconos: %@"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kesalahan saat memuat ikon terbaru: %@"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "最新のアイコンの読み込み中にエラーが発生しました：%@"
-          }
-        }
-      }
-    },
-    "Errore durante la ricerca: %@": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error searching: %@"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error al buscar: %@"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kesalahan saat mencari: %@"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "検索中にエラーが発生しました：%@"
-          }
-        }
-      }
-    },
-    "Errore nella decodifica dei dati": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error decoding data"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error al decodificar los datos"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kesalahan saat mendekode data"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "データのデコードに失敗しました"
-          }
-        }
-      }
-    },
-    "Fine": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Done"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Listo"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Selesai"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "完了"
-          }
-        }
-      }
-    },
-    "Formato": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Format"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Formato"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Format"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "フォーマット"
-          }
-        }
-      }
-    },
-    "Genera la tua chiave API": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Generate your API key"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Genera tu clave de API"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Buat kunci API"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "APIキーを生成"
-          }
-        }
-      }
-    },
-    "Generali": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "General"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "General"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Umum"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "一般"
-          }
-        }
-      }
-    },
-    "Icona applicata. Se l'app era aperta, chiudila e riaprila per vederla.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Icon applied. If the app was open, quit and reopen it to see it."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Icono aplicado. Si la app estaba abierta, ciérrala y vuelve a abrirla para verlo."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ikon diterapkan. Jika aplikasi sedang terbuka, tutup lalu buka kembali untuk melihatnya."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アイコンを適用しました。アプリを開いていた場合は、いったん閉じてから開き直すと反映されます。"
-          }
-        }
-      }
-    },
-    "Icona originale ripristinata.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Original icon restored."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Icono original restaurado."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ikon asli dipulihkan."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "元のアイコンに戻しました。"
-          }
-        }
-      }
-    },
-    "Icone trovate": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Icons Found"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Iconos encontrados"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ikon Ditemukan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アイコン数"
-          }
-        }
-      }
-    },
-    "Impossibile salvare il file: %@": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Couldn't save the file: %@"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No se ha podido guardar el archivo: %@"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak dapat menyimpan file: %@"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ファイルを保存できませんでした：%@"
-          }
-        }
-      }
-    },
-    "Impossibile scaricare il file: %@": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Couldn't download the file: %@"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No se ha podido descargar el archivo: %@"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak dapat mengunduh file: %@"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ファイルをダウンロードできませんでした：%@"
-          }
-        }
-      }
-    },
-    "Incolla qui la tua chiave API": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Paste your API key here"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pega aquí tu clave de API"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tempel kunci API di sini"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "APIキーをここに貼り付け"
-          }
-        }
-      }
-    },
-    "Incollala qui sotto": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Paste it below"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pégala aquí debajo"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tempel di bawah ini"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "下の欄に貼り付け"
-          }
-        }
-      }
-    },
-    "Inserisci un termine di ricerca valido.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enter a valid search term."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Introduce un término de búsqueda válido."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Masukkan istilah pencarian yang valid."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "有効な検索語を入力してください。"
-          }
-        }
-      }
-    },
-    "L'URL di questo formato non e' valido.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This format's URL isn't valid."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "La URL de este formato no es válida."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "URL untuk format ini tidak valid."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "このフォーマットのURLが無効です。"
-          }
-        }
-      }
-    },
-    "L'app che scegli diventa il bersaglio a cui applicherai la prossima icona.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The app you choose becomes the target for the next icon you apply."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "La app que elijas se convierte en el objetivo al que aplicarás el próximo icono."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aplikasi yang dipilih akan menjadi sasaran penerapan ikon berikutnya."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "選んだアプリケーションが、次のアイコンを適用する対象になります。"
-          }
-        }
-      }
-    },
-    "La API key non è valida o è scaduta: aggiornala dalle Impostazioni (Cmd+,).": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The API key is invalid or expired. Update it in Settings (Cmd+,)."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "La clave de API no es válida o ha caducado: actualízala en los Ajustes (Cmd+,)."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunci API tidak valid atau sudah kedaluwarsa: perbarui di Pengaturan (Cmd+,)."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "APIキーが無効か期限切れです。設定（⌘,）から更新してください。"
-          }
-        }
-      }
-    },
-    "La chiave è personale, si ottiene gratuitamente dalla dashboard sviluppatori di macOSicons e resta salvata solo su questo Mac.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The key is personal. Get one for free from the macOSicons developer dashboard; it's stored only on this Mac."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "La clave es personal: se obtiene gratis en el panel de desarrolladores de macOSicons y se guarda solo en este Mac."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunci ini bersifat pribadi, diperoleh secara gratis dari dasbor pengembang macOSicons, dan hanya tersimpan di Mac ini."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "このキーは個人用のもので、macOSiconsの開発者向けダッシュボードから無料で取得でき、このMacにのみ保存されます。"
-          }
-        }
-      }
-    },
-    "Mostra i dettagli": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Show Details"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostrar detalles"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Perlihatkan Detail"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "詳細を表示"
-          }
-        }
-      }
-    },
-    "Nessun risultato": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No Results"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sin resultados"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak Ada Hasil"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "検索結果がありません"
-          }
-        }
-      }
-    },
-    "Nessuna app trovata per \"%@\"": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No apps found for \"%@\""
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No se encontró ninguna app para \"%@\""
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak ada aplikasi yang ditemukan untuk \"%@\""
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "「%@」に一致するアプリケーションが見つかりませんでした"
-          }
-        }
-      }
-    },
-    "Nessuna chiave impostata, la ricerca non funzionerà": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No key set, search won't work"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No hay clave configurada, la búsqueda no funcionará"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunci belum diatur, pencarian tidak akan berfungsi"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "キーが未設定のため、検索は機能しません"
-          }
-        }
-      }
-    },
-    "Nessuna icona selezionata": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No Icon Selected"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ningún icono seleccionado"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak Ada Ikon yang Dipilih"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アイコンが選択されていません"
-          }
-        }
-      }
-    },
-    "Nessuna icona trovata per \"%@\". Prova con un altro nome.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No icons found for \"%@\". Try another name."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No se ha encontrado ningún icono para “%@”. Prueba con otro nombre."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak ada ikon yang ditemukan untuk \"%@\". Coba nama lain."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "「%@」に一致するアイコンが見つかりませんでした。別の名前でお試しください。"
-          }
-        }
-      }
-    },
-    "Non sono riuscito a cambiare l'icona di \"%@\". Riprova; se il problema continua, prova a chiudere l'app prima di riapplicare l'icona.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Couldn't change the icon for \"%@\". Try again; if the problem persists, try quitting the app before reapplying the icon."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No se ha podido cambiar el icono de “%@”. Vuelve a intentarlo; si el problema continúa, prueba a cerrar la app antes de volver a aplicar el icono."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak berhasil mengubah ikon \"%@\". Coba lagi; jika masalah masih berlanjut, coba tutup aplikasi itu sebelum menerapkan ulang ikonnya."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "「%@」のアイコンを変更できませんでした。もう一度お試しください。問題が解決しない場合は、アプリを終了してからアイコンを再適用してみてください。"
-          }
-        }
-      }
-    },
-    "Non sono riuscito a scaricare questa icona. Controlla la connessione e riprova.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Couldn't download this icon. Check your connection and try again."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No se ha podido descargar este icono. Comprueba la conexión y vuelve a intentarlo."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ikon ini tidak berhasil diunduh. Periksa koneksi dan coba lagi."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "このアイコンをダウンロードできませんでした。接続を確認してもう一度お試しください。"
-          }
-        }
-      }
-    },
-    "OK": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "OK"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aceptar"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "OK"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "OK"
-          }
-        }
-      }
-    },
-    "Ordina per": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sort By"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ordenar por"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Urutkan Berdasarkan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "並べ替え"
-          }
-        }
-      }
-    },
-    "Ottieni una chiave": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Get a Key"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Obtener una clave"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dapatkan Kunci"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "キーを取得"
-          }
-        }
-      }
-    },
-    "Passo %1$lld: %2$@": {
-      "extractionState": "stale",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Step %1$lld: %2$@"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Paso %1$lld: %2$@"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Langkah %1$lld: %2$@"
-          }
-        },
         "it": {
           "stringUnit": {
-            "state": "new",
-            "value": "Passo %1$lld: %2$@"
-          }
-        },
-        "ja": {
-          "stringUnit": {
             "state": "translated",
-            "value": "ステップ%1$lld：%2$@"
-          }
-        }
-      }
-    },
-    "Pertinenza": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Relevance"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Relevancia"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Relevansi"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "関連度"
-          }
-        }
-      }
-    },
-    "Più popolari": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Most Popular"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Más populares"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terpopuler"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "人気順"
-          }
-        }
-      }
-    },
-    "Più recente": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Most Recent"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Más reciente"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terbaru"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "最新"
-          }
-        }
-      }
-    },
-    "Più recenti": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Newest"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Más recientes"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terbaru"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "新着順"
-          }
-        }
-      }
-    },
-    "Poi scegli un'icona qui sotto": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Then choose an icon below"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Luego elige un icono debajo"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lalu pilih ikon di bawah ini"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "次に、下のアイコンを選びます。"
-          }
-        }
-      }
-    },
-    "Potrai cambiare la chiave in qualsiasi momento dalle Impostazioni (⌘,).": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You can change the key anytime in Settings (⌘,)."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Podrás cambiar la clave en cualquier momento desde Ajustes (⌘,)."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunci dapat diubah kapan saja dari Pengaturan (⌘,)."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "キーはいつでも設定(⌘,)から変更できます。"
-          }
-        }
-      }
-    },
-    "Quello non e' un'app. Trascina un'applicazione, per esempio una da Applicazioni.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "That's not an app. Drag an application, for example one from Applications."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eso no es una app. Arrastra una aplicación, por ejemplo una de Aplicaciones."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Itu bukan aplikasi. Seret sebuah aplikasi, misalnya salah satu dari Aplikasi."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "これはアプリではありません。アプリをドラッグしてください。たとえば「アプリケーション」フォルダの中にあるものです。"
-          }
-        }
-      }
-    },
-    "Quest'app è protetta da macOS e non si può personalizzare": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This app is protected by macOS and can't be customized"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Esta app está protegida por macOS y no se puede personalizar"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aplikasi ini dilindungi oleh macOS dan tidak dapat disesuaikan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "このアプリケーションはmacOSによって保護されているため、カスタマイズできません"
-          }
-        }
-      }
-    },
-    "Ricerca in corso…": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Searching…"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Buscando…"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mencari…"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "検索中…"
-          }
-        }
-      }
-    },
-    "Ricerca non riuscita": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Search Failed"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error en la búsqueda"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pencarian Gagal"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "検索に失敗しました"
-          }
-        }
-      }
-    },
-    "Rilascia l'app per cambiarne l'icona": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Drop an app to change its icon"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suelta la app para cambiarle el icono"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lepaskan aplikasi untuk mengubah ikonnya"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アプリをドロップしてアイコンを変更"
-          }
-        }
-      }
-    },
-    "Riporta %@ alla sua icona originale": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restore %@ to its original icon"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaura el icono original de %@"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kembalikan %@ ke ikon aslinya"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@を元のアイコンに戻します。"
-          }
-        }
-      }
-    },
-    "Ripristina": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restore"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurar"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pulihkan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "元に戻す"
-          }
-        }
-      }
-    },
-    "Ripristina icona originale": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restore Original Icon"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurar icono original"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pulihkan ikon asli"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "元のアイコンに戻す"
-          }
-        }
-      }
-    },
-    "Risposta del server non valida": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Invalid server response"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Respuesta del servidor no válida"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Respons server tidak valid"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "サーバーの応答が無効です"
-          }
-        }
-      }
-    },
-    "Risultati": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Results"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Resultados"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hasil"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "結果"
-          }
-        }
-      }
-    },
-    "Salva e inizia": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save and Start"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guardar y empezar"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Simpan dan mulai"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "保存して開始"
-          }
-        }
-      }
-    },
-    "Salvata": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Saved"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guardada"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tersimpan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "保存済み"
-          }
-        }
-      }
-    },
-    "Salvato": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Saved"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guardado"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tersimpan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "保存済み"
-          }
-        }
-      }
-    },
-    "Scarica": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Download"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descargar"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unduh"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ダウンロード"
-          }
-        }
-      }
-    },
-    "Scegli app…": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Choose App…"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elegir app…"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pilih aplikasi…"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アプリを選択…"
-          }
-        }
-      }
-    },
-    "Scegli l'app da personalizzare": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Choose the app to customize"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elige la app para personalizar"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pilih aplikasi yang ingin disesuaikan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "カスタマイズするアプリケーションを選択"
-          }
-        }
-      }
-    },
-    "Scegli un'icona qui sotto per applicarla": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Choose an icon below to apply it"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elige un icono debajo para aplicarlo"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pilih ikon di bawah ini untuk menerapkannya"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "下のアイコンを選んで適用します。"
-          }
-        }
-      }
-    },
-    "Seleziona un'icona dalla griglia per vederne i dettagli.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Select an icon from the grid to view its details."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Selecciona un icono de la cuadrícula para ver sus detalles."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pilih ikon dari kisi untuk melihat detailnya."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "詳細を表示するには、グリッドからアイコンを選択してください。"
-          }
-        }
-      }
-    },
-    "Serve la tua chiave di macOSicons": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You need your macOSicons key"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Necesitas tu clave de macOSicons"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunci macOSicons Diperlukan"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOSiconsのAPIキーが必要です"
-          }
-        }
-      }
-    },
-    "Stacca %@ dalla zona di trascinamento": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Detach %@ from the drop zone"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quita %@ de la zona de arrastre"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lepaskan %@ dari zona seret"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@をドラッグ領域から外します。"
-          }
-        }
-      }
-    },
-    "Stai per cambiare l'icona di ": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You are about to change the icon of "
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vas a cambiar el icono de "
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Anda akan mengubah ikon "
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アイコンを変更するアプリ："
-          }
-        }
-      }
-    },
-    "Svuota la ricerca": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Clear search"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Borrar búsqueda"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kosongkan pencarian"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "検索をクリア"
-          }
-        }
-      }
-    },
-    "Trascina prima un'app di cui ripristinare l'icona.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Drag an app first to restore its icon."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Arrastra primero una app para restaurar su icono."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seret aplikasi terlebih dahulu untuk memulihkan ikonnya."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "先にアイコンを復元するアプリをドラッグしてください。"
-          }
-        }
-      }
-    },
-    "Trascina prima un'app su cui applicare l'icona.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Drag an app first to apply the icon to it."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Arrastra primero una app a la que aplicar el icono."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seret aplikasi terlebih dahulu untuk menerapkan ikon."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "先にアイコンを適用するアプリをドラッグしてください。"
-          }
-        }
-      }
-    },
-    "Trascina qui l'app per cambiarne l'icona": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Drag an app here to change its icon"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Arrastra aquí la app para cambiar su icono"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seret aplikasi ke sini untuk mengubah ikonnya"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "アプリをここにドラッグしてアイコンを変更します。"
-          }
-        }
-      }
-    },
-    "Trascina qui un'app per cambiarne l'icona, oppure scegli l'app dal pannello.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Drag an app here to change its icon, or choose the app from the panel."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Arrastra aquí una app para cambiar su icono, o elige la app en el panel."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seret aplikasi ke sini untuk mengubah ikonnya, atau pilih aplikasi dari panel."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ここにアプリケーションをドラッグしてアイコンを変更するか、パネルからアプリケーションを選択してください。"
-          }
-        }
-      }
-    },
-    "URL non valido": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Invalid URL"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "URL no válida"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "URL tidak valid"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "URLが無効です"
-          }
-        }
-      }
-    },
-    "Ultime icone": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Recent Icons"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Iconos recientes"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ikon Terbaru"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "最新のアイコン"
-          }
-        }
-      }
-    },
-    "Usa il catalogo pubblico di macOSicons.com per cercare e scaricare le icone.": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Uses the public macOSicons.com catalog to search for and download icons."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Usa el catálogo público de macOSicons.com para buscar y descargar iconos."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gunakan katalog publik macOSicons.com untuk mencari dan mengunduh ikon."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOSicons.comの公開カタログを使って、アイコンを検索・ダウンロードできます。"
+            "value": "Data"
           }
         }
       }
@@ -2776,22 +652,895 @@
             "value": "by %@"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "de %@"
+            "value": "di %@"
+          }
+        }
+      }
+    },
+    "Download": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloads"
           }
         },
-        "id": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "oleh %@"
+            "value": "Download"
+          }
+        }
+      }
+    },
+    "Download totali": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Total Downloads"
           }
         },
-        "ja": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "作成者：%@"
+            "value": "Download totali"
+          }
+        }
+      }
+    },
+    "È gratuita, personale e resta salvata solo su questo Mac: nessun account condiviso, nessun limite da dividere con altri utenti dell'app.": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It's free, personal, and stays saved only on this Mac: no shared account, no usage limit split with other users of the app."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "È gratuita, personale e resta salvata solo su questo Mac: nessun account condiviso, nessun limite da dividere con altri utenti dell'app."
+          }
+        }
+      }
+    },
+    "Errore": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Errore"
+          }
+        }
+      }
+    },
+    "Errore durante il caricamento delle ultime icone: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error loading recent icons: %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Errore durante il caricamento delle ultime icone: %@"
+          }
+        }
+      }
+    },
+    "Errore durante la ricerca: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error searching: %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Errore durante la ricerca: %@"
+          }
+        }
+      }
+    },
+    "Errore HTTP: %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTTP error: %lld"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Errore HTTP: %lld"
+          }
+        }
+      }
+    },
+    "Errore nella decodifica dei dati": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error decoding data"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Errore nella decodifica dei dati"
+          }
+        }
+      }
+    },
+    "Errore Portachiavi (codice %d).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keychain error (code %d)."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Errore Portachiavi (codice %d)."
+          }
+        }
+      }
+    },
+    "Fine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fine"
+          }
+        }
+      }
+    },
+    "Formato": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Format"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Formato"
+          }
+        }
+      }
+    },
+    "Genera la tua chiave API": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generate your API key"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genera la tua chiave API"
+          }
+        }
+      }
+    },
+    "Generali": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generali"
+          }
+        }
+      }
+    },
+    "https://tuo-worker.workers.dev": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://tuo-worker.workers.dev"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://your-worker.workers.dev"
+          }
+        }
+      }
+    },
+    "Icona applicata. Se l'app era aperta, chiudila e riaprila per vederla.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Icon applied. If the app was open, quit and reopen it to see it."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Icona applicata. Se l'app era aperta, chiudila e riaprila per vederla."
+          }
+        }
+      }
+    },
+    "Icona originale ripristinata.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Original icon restored."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Icona originale ripristinata."
+          }
+        }
+      }
+    },
+    "Icone trovate": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Icons Found"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Icone trovate"
+          }
+        }
+      }
+    },
+    "ieri": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ieri"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "yesterday"
+          }
+        }
+      }
+    },
+    "Il conteggio riparte all'inizio del mese prossimo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The count resets at the start of next month."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il conteggio riparte all'inizio del mese prossimo."
+          }
+        }
+      }
+    },
+    "Il conteggio riparte il %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The count resets on %@."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il conteggio riparte il %@."
+          }
+        }
+      }
+    },
+    "Il Mac non riesce a raggiungere il tuo Worker. Controlla la connessione a internet e riprova.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Mac can’t reach your Worker. Check your internet connection and try again."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Mac non riesce a raggiungere il tuo Worker. Controlla la connessione a internet e riprova."
+          }
+        }
+      }
+    },
+    "Il server risponde, ma non espone il contratto Worker richiesto da questa app.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server is responding, but it doesn’t expose the Worker contract required by this app."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il server risponde, ma non espone il contratto Worker richiesto da questa app."
+          }
+        }
+      }
+    },
+    "Il servizio a monte del tuo Worker ha esaurito le %lld ricerche mensili. %@ Controlla la configurazione o il piano del servizio usato dal Worker.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Worker’s upstream service has used its %1$lld monthly searches. %2$@ Check the configuration or plan for the service used by the Worker."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Il servizio a monte del tuo Worker ha esaurito le %1$lld ricerche mensili. %2$@ Controlla la configurazione o il piano del servizio usato dal Worker."
+          }
+        }
+      }
+    },
+    "Il token è valido, ma non è stato possibile salvarlo nel Portachiavi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The token is valid, but it couldn’t be saved to the Keychain."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il token è valido, ma non è stato possibile salvarlo nel Portachiavi."
+          }
+        }
+      }
+    },
+    "Il token salvato nel Portachiavi non è leggibile.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The token saved in the Keychain can’t be read."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il token salvato nel Portachiavi non è leggibile."
+          }
+        }
+      }
+    },
+    "Il tuo Worker è temporaneamente irraggiungibile. Controlla rete e deploy, poi riprova.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Worker is temporarily unavailable. Check the network and deployment, then try again."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il tuo Worker è temporaneamente irraggiungibile. Controlla rete e deploy, poi riprova."
+          }
+        }
+      }
+    },
+    "Il Worker ci ha messo troppo a rispondere e la richiesta è stata interrotta. Di solito basta riprovare.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker took too long to respond, so the request was cancelled. Usually, trying again is enough."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker ci ha messo troppo a rispondere e la richiesta è stata interrotta. Di solito basta riprovare."
+          }
+        }
+      }
+    },
+    "Il Worker ha rifiutato il token: aggiornalo dalle Impostazioni (Cmd+,).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker rejected the token. Update it in Settings (Cmd+,)."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker ha rifiutato il token: aggiornalo dalle Impostazioni (Cmd+,)."
+          }
+        }
+      }
+    },
+    "Il Worker ha rifiutato il token. Controlla che corrisponda a CLIENT_AUTH_TOKEN.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker rejected the token. Check that it matches CLIENT_AUTH_TOKEN."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker ha rifiutato il token. Controlla che corrisponda a CLIENT_AUTH_TOKEN."
+          }
+        }
+      }
+    },
+    "Il Worker ha rifiutato la richiesta autenticata.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker rejected the authenticated request."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker ha rifiutato la richiesta autenticata."
+          }
+        }
+      }
+    },
+    "Il Worker ha rifiutato la richiesta per un motivo inatteso. Riprova: se continua, verifica URL e token nelle Impostazioni.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker rejected the request for an unexpected reason. Try again. If it continues, check the URL and token in Settings."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker ha rifiutato la richiesta per un motivo inatteso. Riprova: se continua, verifica URL e token nelle Impostazioni."
+          }
+        }
+      }
+    },
+    "Il Worker ha risposto in un formato incompatibile con questa app. Verifica di aver pubblicato la versione corretta del Worker.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker replied in a format this app can’t use. Check that you deployed the correct Worker version."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker ha risposto in un formato incompatibile con questa app. Verifica di aver pubblicato la versione corretta del Worker."
+          }
+        }
+      }
+    },
+    "Il Worker non è configurato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker isn’t configured"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker non è configurato"
+          }
+        }
+      }
+    },
+    "Il Worker non è raggiungibile in questo momento.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker can’t be reached right now."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker non è raggiungibile in questo momento."
+          }
+        }
+      }
+    },
+    "Il Worker non è raggiungibile. Controlla URL, rete e deploy, poi riprova.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker can’t be reached. Check the URL, network, and deployment, then try again."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker non è raggiungibile. Controlla URL, rete e deploy, poi riprova."
+          }
+        }
+      }
+    },
+    "Il Worker non riconosce più il token salvato nell’app. Inserisci nelle Impostazioni il valore corrente di CLIENT_AUTH_TOKEN e verifica di nuovo la connessione.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker no longer recognizes the token saved in the app. Enter the current CLIENT_AUTH_TOKEN in Settings and verify the connection again."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker non riconosce più il token salvato nell’app. Inserisci nelle Impostazioni il valore corrente di CLIENT_AUTH_TOKEN e verifica di nuovo la connessione."
+          }
+        }
+      }
+    },
+    "Il Worker non risponde": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker isn’t responding"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker non risponde"
+          }
+        }
+      }
+    },
+    "Il Worker non risponde: stai vedendo la copia salvata %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker isn’t responding. You’re viewing the saved copy from %@."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il Worker non risponde: stai vedendo la copia salvata %@."
+          }
+        }
+      }
+    },
+    "Impossibile salvare il file: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't save the file: %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile salvare il file: %@"
+          }
+        }
+      }
+    },
+    "Impossibile scaricare il file: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't download the file: %@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossibile scaricare il file: %@"
+          }
+        }
+      }
+    },
+    "Incolla lo stesso CLIENT_AUTH_TOKEN configurato nel Worker": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste the same CLIENT_AUTH_TOKEN configured in the Worker"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incolla lo stesso CLIENT_AUTH_TOKEN configurato nel Worker"
+          }
+        }
+      }
+    },
+    "Incolla qui la tua chiave API": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste your API key here"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incolla qui la tua chiave API"
+          }
+        }
+      }
+    },
+    "Incollala qui sotto": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste it below"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incollala qui sotto"
+          }
+        }
+      }
+    },
+    "Inserisci il CLIENT_AUTH_TOKEN configurato nel tuo Worker.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter the CLIENT_AUTH_TOKEN configured in your Worker."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inserisci il CLIENT_AUTH_TOKEN configurato nel tuo Worker."
+          }
+        }
+      }
+    },
+    "Inserisci nelle Impostazioni l’URL HTTPS del tuo Worker e il relativo CLIENT_AUTH_TOKEN. L’app li verifica prima di iniziare a cercare.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter your Worker’s HTTPS URL and CLIENT_AUTH_TOKEN in Settings. The app verifies them before searching."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inserisci nelle Impostazioni l’URL HTTPS del tuo Worker e il relativo CLIENT_AUTH_TOKEN. L’app li verifica prima di iniziare a cercare."
+          }
+        }
+      }
+    },
+    "Inserisci un termine di ricerca valido.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter a valid search term."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inserisci un termine di ricerca valido."
+          }
+        }
+      }
+    },
+    "Inserisci un URL HTTPS valido del tuo Worker, senza query o frammenti.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter a valid HTTPS URL for your Worker, without a query or fragment."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inserisci un URL HTTPS valido del tuo Worker, senza query o frammenti."
+          }
+        }
+      }
+    },
+    "L'app che scegli diventa il bersaglio a cui applicherai la prossima icona.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The app you choose becomes the target for the next icon you apply."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'app che scegli diventa il bersaglio a cui applicherai la prossima icona."
+          }
+        }
+      }
+    },
+    "L’app open source interroga solo il Worker Cloudflare che controlli tu. Il token resta nel Portachiavi di questo Mac.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The open-source app only contacts the Cloudflare Worker you control. The token stays in this Mac’s Keychain."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’app open source interroga solo il Worker Cloudflare che controlli tu. Il token resta nel Portachiavi di questo Mac."
+          }
+        }
+      }
+    },
+    "L'URL di questo formato non e' valido.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This format's URL isn't valid."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'URL di questo formato non e' valido."
+          }
+        }
+      }
+    },
+    "L’URL viene salvato nelle preferenze. Il token resta nel Portachiavi e non viene mai mostrato o scritto nei file dell’app.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The URL is saved in preferences. The token stays in the Keychain and is never shown or written to the app’s files."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’URL viene salvato nelle preferenze. Il token resta nel Portachiavi e non viene mai mostrato o scritto nei file dell’app."
+          }
+        }
+      }
+    },
+    "La API key non è valida o è scaduta: aggiornala dalle Impostazioni (Cmd+,).": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The API key is invalid or expired. Update it in Settings (Cmd+,)."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La API key non è valida o è scaduta: aggiornala dalle Impostazioni (Cmd+,)."
+          }
+        }
+      }
+    },
+    "La chiave è personale, si ottiene gratuitamente dalla dashboard sviluppatori di macOSicons e resta salvata solo su questo Mac.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The key is personal. Get one for free from the macOSicons developer dashboard; it's stored only on this Mac."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La chiave è personale, si ottiene gratuitamente dalla dashboard sviluppatori di macOSicons e resta salvata solo su questo Mac."
+          }
+        }
+      }
+    },
+    "Lascia fare al tuo agente": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lascia fare al tuo agente"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Let your agent handle it"
           }
         }
       }
@@ -2805,22 +1554,10 @@
             "value": "macOS doesn't allow changes to this app"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS no permite modificar esta app"
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOS tidak mengizinkan aplikasi ini diubah"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOSではこのアプリケーションを変更できません"
+            "value": "macOS non lascia modificare quest'app"
           }
         }
       }
@@ -2833,22 +1570,10 @@
             "value": "macOS won't let you modify this app because it's a system app or doesn't belong to you. Copy it to your Applications folder and try again from there."
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS no permite modificar esta app porque es del sistema o no te pertenece. Cópiala en tu carpeta Aplicaciones personal y vuelve a intentarlo desde ahí."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOS tidak mengizinkan perubahan pada aplikasi ini karena merupakan aplikasi sistem atau bukan milik Anda. Salin ke folder Aplikasi pribadi, lalu coba lagi dari sana."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOSでは、このアプリを変更できません。システムのアプリか、あなたが所有していないアプリのためです。個人用の「アプリケーション」フォルダにコピーしてから、もう一度お試しください。"
+            "value": "macOS non lascia modificare quest'app perché è di sistema o non ti appartiene. Copiala nella cartella Applicazioni personale e riprova da lì."
           }
         }
       }
@@ -2861,22 +1586,10 @@
             "value": "macOS won't let you modify this app."
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS no permite modificar esta app."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOS tidak mengizinkan perubahan pada aplikasi ini."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOSでは、このアプリを変更できません。"
+            "value": "macOS non lascia modificare quest'app."
           }
         }
       }
@@ -2890,22 +1603,10 @@
             "value": "macOS won't let you modify this app because it's a system app or doesn't belong to you. Copy it to your personal Applications folder and try again from there."
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS no permite modificar esta app porque es una app del sistema o no te pertenece. Cópiala en tu carpeta Aplicaciones personal y vuelve a intentarlo desde allí."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "macOS tidak mengizinkan aplikasi ini diubah karena merupakan aplikasi sistem atau bukan milik Anda. Salin ke folder Aplikasi pribadi, lalu coba lagi dari sana."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "このアプリはシステムアプリであるか、あなたの所有物ではないため、macOSでは変更できません。個人用の「アプリケーション」フォルダにコピーしてから、もう一度お試しください。"
+            "value": "macOS non lascia modificare questa app perche' e' un'app di sistema o non ti appartiene. Copiala nella tua cartella Applicazioni personale e riprova da li'."
           }
         }
       }
@@ -2913,30 +1614,1158 @@
     "macOSicons": {
       "shouldTranslate": false
     },
-    "È gratuita, personale e resta salvata solo su questo Mac: nessun account condiviso, nessun limite da dividere con altri utenti dell'app.": {
+    "Messaggio copiato": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Messaggio copiato"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Message copied"
+          }
+        }
+      }
+    },
+    "Mostra i dettagli": {
+      "extractionState": "manual",
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "It's free, personal, and stays saved only on this Mac: no shared account, no usage limit split with other users of the app."
+            "value": "Show Details"
           }
         },
-        "es": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Es gratuita, personal y se guarda solo en este Mac: sin cuenta compartida, sin límite que compartir con otros usuarios de la app."
+            "value": "Mostra i dettagli"
+          }
+        }
+      }
+    },
+    "Nessun risultato": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Results"
           }
         },
-        "id": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Kunci ini gratis, pribadi, dan hanya tersimpan di Mac ini: tidak ada akun bersama, tidak ada batas yang dibagi dengan pengguna aplikasi lain."
+            "value": "Nessun risultato"
+          }
+        }
+      }
+    },
+    "Nessuna app trovata per \"%@\"": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No apps found for \"%@\""
           }
         },
-        "ja": {
+        "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "このキーは無料かつ個人専用で、このMacにのみ保存されます。アカウントを共有することも、他のアプリケーション利用者と上限を分け合うこともありません。"
+            "value": "Nessuna app trovata per \"%@\""
+          }
+        }
+      }
+    },
+    "Nessuna chiave impostata, la ricerca non funzionerà": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No key set, search won't work"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna chiave impostata, la ricerca non funzionerà"
+          }
+        }
+      }
+    },
+    "Nessuna connessione": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No connection"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna connessione"
+          }
+        }
+      }
+    },
+    "Nessuna icona selezionata": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Icon Selected"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna icona selezionata"
+          }
+        }
+      }
+    },
+    "Nessuna icona trovata per \"%@\". Prova con un altro nome, per esempio quello del produttore invece che dell'app.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No icons found for “%@”. Try another name, such as the developer’s instead of the app’s."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna icona trovata per \"%@\". Prova con un altro nome, per esempio quello del produttore invece che dell'app."
+          }
+        }
+      }
+    },
+    "Nessuna icona trovata per \"%@\". Prova con un altro nome.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No icons found for \"%@\". Try another name."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna icona trovata per \"%@\". Prova con un altro nome."
+          }
+        }
+      }
+    },
+    "Non si riesce a contattare il Worker configurato. Può essere la rete, un DNS o un deploy non attivo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The configured Worker can’t be reached. The network, DNS, or an inactive deployment may be the cause."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non si riesce a contattare il Worker configurato. Può essere la rete, un DNS o un deploy non attivo."
+          }
+        }
+      }
+    },
+    "Non sono riuscito a cambiare l'icona di \"%@\". Riprova; se il problema continua, prova a chiudere l'app prima di riapplicare l'icona.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't change the icon for \"%@\". Try again; if the problem persists, try quitting the app before reapplying the icon."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non sono riuscito a cambiare l'icona di \"%@\". Riprova; se il problema continua, prova a chiudere l'app prima di riapplicare l'icona."
+          }
+        }
+      }
+    },
+    "Non sono riuscito a scaricare questa icona. Controlla la connessione e riprova.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't download this icon. Check your connection and try again."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non sono riuscito a scaricare questa icona. Controlla la connessione e riprova."
+          }
+        }
+      }
+    },
+    "OK": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Ora incollalo nella chat del tuo agente.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ora incollalo nella chat del tuo agente."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now paste it into your agent’s chat."
+          }
+        }
+      }
+    },
+    "Ordina per": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort By"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordina per"
+          }
+        }
+      }
+    },
+    "Ottieni una chiave": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get a Key"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ottieni una chiave"
+          }
+        }
+      }
+    },
+    "Passo %1$lld: %2$@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %1$lld: %2$@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Passo %1$lld: %2$@"
+          }
+        }
+      }
+    },
+    "Passo %lld: %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %1$lld: %2$@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Passo %1$lld: %2$@"
+          }
+        }
+      }
+    },
+    "Pertinenza": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Relevance"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pertinenza"
+          }
+        }
+      }
+    },
+    "Più popolari": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Most Popular"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Più popolari"
+          }
+        }
+      }
+    },
+    "Più recente": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Most Recent"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Più recente"
+          }
+        }
+      }
+    },
+    "Più recenti": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Newest"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Più recenti"
+          }
+        }
+      }
+    },
+    "pochi minuti fa": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pochi minuti fa"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "a few minutes ago"
+          }
+        }
+      }
+    },
+    "Poi scegli un'icona qui sotto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Then choose an icon below"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poi scegli un'icona qui sotto"
+          }
+        }
+      }
+    },
+    "Potrai cambiare la chiave in qualsiasi momento dalle Impostazioni (⌘,).": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You can change the key anytime in Settings (⌘,)."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potrai cambiare la chiave in qualsiasi momento dalle Impostazioni (⌘,)."
+          }
+        }
+      }
+    },
+    "Potrai cambiare Worker e token in qualsiasi momento dalle Impostazioni (⌘,).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You can change the Worker and token any time in Settings (⌘,)."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potrai cambiare Worker e token in qualsiasi momento dalle Impostazioni (⌘,)."
+          }
+        }
+      }
+    },
+    "Pubblica il Worker incluso nel progetto": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deploy the Worker included with the project"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pubblica il Worker incluso nel progetto"
+          }
+        }
+      }
+    },
+    "Quello non e' un'app. Trascina un'applicazione, per esempio una da Applicazioni.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That's not an app. Drag an application, for example one from Applications."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quello non e' un'app. Trascina un'applicazione, per esempio una da Applicazioni."
+          }
+        }
+      }
+    },
+    "Quest'app è protetta da macOS e non si può personalizzare": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This app is protected by macOS and can't be customized"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quest'app è protetta da macOS e non si può personalizzare"
+          }
+        }
+      }
+    },
+    "Quota mensile esaurita": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monthly quota exhausted"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quota mensile esaurita"
+          }
+        }
+      }
+    },
+    "Ricerca in corso…": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching…"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricerca in corso…"
+          }
+        }
+      }
+    },
+    "Ricerca non riuscita": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search Failed"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricerca non riuscita"
+          }
+        }
+      }
+    },
+    "Ricerche del mese esaurite sul Worker.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Worker’s monthly searches are exhausted."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricerche del mese esaurite sul Worker."
+          }
+        }
+      }
+    },
+    "Ricerche del mese finite: stai vedendo la copia salvata %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monthly searches are exhausted. You’re viewing the saved copy from %@."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricerche del mese finite: stai vedendo la copia salvata %@."
+          }
+        }
+      }
+    },
+    "Ricerche finite per questo mese": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searches exhausted for this month"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ricerche finite per questo mese"
+          }
+        }
+      }
+    },
+    "Rilascia l'app per cambiarne l'icona": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drop an app to change its icon"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rilascia l'app per cambiarne l'icona"
+          }
+        }
+      }
+    },
+    "Riporta %@ alla sua icona originale": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore %@ to its original icon"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riporta %@ alla sua icona originale"
+          }
+        }
+      }
+    },
+    "Ripristina": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina"
+          }
+        }
+      }
+    },
+    "Ripristina icona originale": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Original Icon"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina icona originale"
+          }
+        }
+      }
+    },
+    "Riprova": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try Again"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riprova"
+          }
+        }
+      }
+    },
+    "Risposta del server non valida": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid server response"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Risposta del server non valida"
+          }
+        }
+      }
+    },
+    "Risposta non leggibile": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unreadable response"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Risposta non leggibile"
+          }
+        }
+      }
+    },
+    "Risposta troppo lenta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Response too slow"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Risposta troppo lenta"
+          }
+        }
+      }
+    },
+    "Risultati": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Results"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Risultati"
+          }
+        }
+      }
+    },
+    "Salva e inizia": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save and Start"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva e inizia"
+          }
+        }
+      }
+    },
+    "Salvata": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salvata"
+          }
+        }
+      }
+    },
+    "Salvato": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salvato"
+          }
+        }
+      }
+    },
+    "Scarica": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scarica"
+          }
+        }
+      }
+    },
+    "Scegli app…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose App…"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli app…"
+          }
+        }
+      }
+    },
+    "Scegli l'app da personalizzare": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose the app to customize"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli l'app da personalizzare"
+          }
+        }
+      }
+    },
+    "Scegli un'icona qui sotto per applicarla": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose an icon below to apply it"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scegli un'icona qui sotto per applicarla"
+          }
+        }
+      }
+    },
+    "Seleziona un'icona dalla griglia per vederne i dettagli.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select an icon from the grid to view its details."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seleziona un'icona dalla griglia per vederne i dettagli."
+          }
+        }
+      }
+    },
+    "Serve la tua chiave di macOSicons": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You need your macOSicons key"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serve la tua chiave di macOSicons"
+          }
+        }
+      }
+    },
+    "Server irraggiungibile": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server unreachable"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server irraggiungibile"
+          }
+        }
+      }
+    },
+    "Stacca %@ dalla zona di trascinamento": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detach %@ from the drop zone"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stacca %@ dalla zona di trascinamento"
+          }
+        }
+      }
+    },
+    "Stai per cambiare l'icona di ": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You are about to change the icon of "
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stai per cambiare l'icona di "
+          }
+        }
+      }
+    },
+    "Svuota la ricerca": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear search"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Svuota la ricerca"
+          }
+        }
+      }
+    },
+    "Token del Worker rifiutato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Worker token rejected"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Token del Worker rifiutato"
+          }
+        }
+      }
+    },
+    "Trascina prima un'app di cui ripristinare l'icona.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drag an app first to restore its icon."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trascina prima un'app di cui ripristinare l'icona."
+          }
+        }
+      }
+    },
+    "Trascina prima un'app su cui applicare l'icona.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drag an app first to apply the icon to it."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trascina prima un'app su cui applicare l'icona."
+          }
+        }
+      }
+    },
+    "Trascina qui l'app per cambiarne l'icona": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drag an app here to change its icon"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trascina qui l'app per cambiarne l'icona"
+          }
+        }
+      }
+    },
+    "Trascina qui un'app per cambiarne l'icona, oppure scegli l'app dal pannello.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drag an app here to change its icon, or choose the app from the panel."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trascina qui un'app per cambiarne l'icona, oppure scegli l'app dal pannello."
+          }
+        }
+      }
+    },
+    "Ultime icone": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recent Icons"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ultime icone"
+          }
+        }
+      }
+    },
+    "URL HTTPS del Worker": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Worker HTTPS URL"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL HTTPS del Worker"
+          }
+        }
+      }
+    },
+    "URL non valido": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid URL"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL non valido"
+          }
+        }
+      }
+    },
+    "Usa il catalogo pubblico di macOSicons.com per cercare e scaricare le icone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uses the public macOSicons.com catalog to search for and download icons."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa il catalogo pubblico di macOSicons.com per cercare e scaricare le icone."
+          }
+        }
+      }
+    },
+    "Verifica e salva": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verify and Save"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verifica e salva"
+          }
+        }
+      }
+    },
+    "Verifico il Worker…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verifying Worker…"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verifico il Worker…"
+          }
+        }
+      }
+    },
+    "Worker personale": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your Worker"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Worker personale"
+          }
+        }
+      }
+    },
+    "Worker verificato e configurato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Worker verified and configured"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Worker verificato e configurato"
           }
         }
       }

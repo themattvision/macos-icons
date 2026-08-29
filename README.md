@@ -18,9 +18,9 @@ Applicazione macOS nativa per cercare icone su macOSicons e applicarle a bundle 
 
 ## Avvio rapido
 
-1. Distribuisci il tuo Worker dalla cartella [`worker`](worker/README.md). Ti serviranno due secret: `MACOSICONS_API_KEY` e `CLIENT_AUTH_TOKEN`.
-2. Apri `MacOS Icons.xcodeproj` in Xcode, scegli il tuo Team in Signing & Capabilities ed esegui il target `MacOS Icons`.
-3. Al primo avvio inserisci l'URL HTTPS del tuo Worker e lo stesso `CLIENT_AUTH_TOKEN` configurato su Cloudflare. L'app esegue `GET /health` prima di salvare i valori.
+1. Apri `MacOS Icons.xcodeproj` in Xcode, scegli il tuo Team in Signing & Capabilities ed esegui il target `MacOS Icons`.
+2. Al primo avvio fai clic su “Copia il messaggio per il tuo agente” e invialo al tuo agente AI. Userà il Worker dalla cartella [`worker`](worker/README.md), ti chiederà soltanto la tua `MACOSICONS_API_KEY` e pubblicherà il Worker nel tuo account Cloudflare.
+3. Incolla nell’app l’URL HTTPS e il `CLIENT_AUTH_TOKEN` restituiti dall’agente. L’app esegue `GET /health` prima di salvare i valori.
 
 La chiave API macOSicons non viene mai chiesta dall'app e non attraversa la rete dal Mac. Il Worker la conserva nel suo secret store e la usa soltanto per chiamare l'upstream.
 

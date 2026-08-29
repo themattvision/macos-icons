@@ -6,6 +6,7 @@
 //  prima di essere salvati e prima che l'app mostri il catalogo.
 //
 
+import AppKit
 import SwiftUI
 
 struct WorkerSetupView: View {
@@ -16,6 +17,7 @@ struct WorkerSetupView: View {
     @State private var draftToken = ""
     @State private var isValidating = false
     @State private var validationError: String?
+    @State private var didCopyAgentMessage = false
     @FocusState private var focusedField: Field?
 
     private enum Field {
@@ -29,7 +31,7 @@ struct WorkerSetupView: View {
         VStack(spacing: Space.xl) {
             Spacer(minLength: 0)
             brandHeader
-            stepsCard
+            agentSetupCard
             configurationForm
             Text("Potrai cambiare Worker e token in qualsiasi momento dalle Impostazioni (⌘,).")
                 .font(Font.cellMeta)
@@ -59,31 +61,39 @@ struct WorkerSetupView: View {
         }
     }
 
-    private var stepsCard: some View {
-        VStack(alignment: .leading, spacing: Space.md) {
-            step(number: 1, text: String(localized: "Pubblica il Worker incluso nel progetto"))
-            step(number: 2, text: String(localized: "Copia il suo URL HTTPS"))
-            step(number: 3, text: String(localized: "Incolla lo stesso CLIENT_AUTH_TOKEN configurato nel Worker"))
-        }
-        .padding(Space.md)
-        .surface(radius: Radius.lg)
-    }
-
-    private func step(number: Int, text: String) -> some View {
-        HStack(alignment: .top, spacing: Space.sm) {
-            Text(verbatim: "\(number)")
-                .font(Font.cellLabel)
-                .foregroundStyle(Brand.accent)
-                .frame(width: Space.lg, height: Space.lg)
-                .background(Brand.surfaceRaised, in: RoundedRectangle(cornerRadius: Radius.sm, style: .continuous))
-
-            Text(text)
-                .font(Font.heroSubtitle)
+    private var agentSetupCard: some View {
+        VStack(spacing: Space.md) {
+            Text("Lascia fare al tuo agente")
+                .font(Font.heroTitle)
                 .foregroundStyle(Brand.text)
-            Spacer(minLength: 0)
+
+            Text("Copia il messaggio, invialo al tuo agente e poi torna qui con l’URL del Worker e il token che ti restituisce.")
+                .font(Font.heroSubtitle)
+                .foregroundStyle(Brand.textMuted)
+                .multilineTextAlignment(.center)
+
+            Button(action: copyAgentMessage) {
+                Label(
+                    didCopyAgentMessage ? "Messaggio copiato" : "Copia il messaggio per il tuo agente",
+                    systemImage: didCopyAgentMessage ? "checkmark" : "doc.on.doc"
+                )
+                .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.borderedProminent)
+            .tint(didCopyAgentMessage ? .green : Brand.accent)
+            .controlSize(.large)
+            .clipShape(RoundedRectangle(cornerRadius: Radius.pill, style: .continuous))
+            .accessibilityHint("Copia negli appunti le istruzioni per pubblicare e configurare il Worker.")
+
+            if didCopyAgentMessage {
+                Text("Ora incollalo nella chat del tuo agente.")
+                    .font(Font.cellMeta)
+                    .foregroundStyle(.green)
+                    .transition(.opacity)
+            }
         }
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("Passo \(number): \(text)")
+        .padding(Space.lg)
+        .surface(radius: Radius.lg)
     }
 
     private var configurationForm: some View {
@@ -126,6 +136,17 @@ struct WorkerSetupView: View {
             .clipShape(RoundedRectangle(cornerRadius: Radius.pill, style: .continuous))
             .disabled(isValidating || draftURL.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || draftToken.isEmpty)
         }
+    }
+
+    private func copyAgentMessage() {
+        let pasteboard = NSPasteboard.general
+        pasteboard.clearContents()
+        pasteboard.setString(AgentWorkerSetupPrompt.text, forType: .string)
+
+        withAnimation(.ui) {
+            didCopyAgentMessage = true
+        }
+        NSHapticFeedbackManager.defaultPerformer.perform(.generic, performanceTime: .now)
     }
 
     private func validateAndSave() {

@@ -269,7 +269,7 @@ private struct IconGridItem: View {
     /// solo nome non basta più a dire cosa succederà passando sopra la cella.
     private var helpText: String {
         guard let target = applier.target else { return icon.appName }
-        return "Applica \(icon.appName) a \(target.name)"
+        return String(localized: "Applica \(icon.appName) a \(target.name)")
     }
 
     /// VoiceOver legge una frase sola invece di quattro frammenti scollegati.
